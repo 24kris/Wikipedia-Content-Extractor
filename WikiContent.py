@@ -12,7 +12,10 @@ Created on Mon Dec  10 22:24:08 2018
 import wikipedia
 
 path='filepath/WikiContent.txt' ###write your file path here
-WikiSearch = "green herb"
+WikiSearch = "Rick and Morty"
+####  incase you want to extract urlWise then comment Line 15 and uncomment Line 17 and 18
+#wikiurl= 'https://en.wikipedia.org/wiki/Rick_and_Morty'
+#WikiSearch = wikiurl[30:]
 p = wikipedia.page(WikiSearch)
 #print(p.content[2])
 content=''
